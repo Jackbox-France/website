@@ -1,12 +1,6 @@
 // Styling for the masthead
 header.masthead-patcher {
-  text-align: center;
-  color: white;
   background-color: $gray-900;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -24,6 +18,10 @@ header.masthead-patcher {
       text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
       @include heading-font;
     }
+  }
+
+  img {
+    width: 100px;
   }
 }
 @media(min-width:768px) {

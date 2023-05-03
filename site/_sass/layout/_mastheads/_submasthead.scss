@@ -1,6 +1,12 @@
-.masthead-patcher {
+.submasthead {
+    text-align: center;
+    color: white;
     background-image: unset!important;
     background-color: $gray-900;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
     .intro-text {
       .intro-lead-in {
         font-size: 18px;
@@ -29,17 +35,18 @@
     }
   }
   @media(min-width:768px) {
-  .masthead-patcher {
-    text-align:left;
+  .submasthead {
+    text-align:left!important;
     background-image:url("#{$patcher-image}")!important;
     .intro-text {
       padding-top: 50px;
       padding-bottom: 50px;
+      width:50%;
       .intro-lead-in {
-        width:50%;
         font-size: 22px;
         line-height: 22px;
         margin-bottom: 0px;
+        @include serif-font;
       }
       .intro-heading {
         font-size: 50px;

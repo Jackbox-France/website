@@ -11,6 +11,12 @@ patcher:
     buttonlink: "patcher"
     section: "patcher"
 
+controller:
+    title: Jackbox.tv français
+    text: Connectez vous à Jackbox.tv en français
+    button: Jouons maintenant
+    buttonlink: "https://laboxdejack.fr/"
+
 patcher_page:
     title: Jackbox Utility
     text: Téléchargez l'application grâce aux boutons ci-dessous
