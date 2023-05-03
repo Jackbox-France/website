@@ -1,0 +1,22 @@
+---
+layout: default
+--- 
+{% include nav.html %}
+
+<header class="masthead masthead-patcher">
+    <div class="container">
+      <div class="intro-text">
+        <img src="{{ site.data.style.patcher-icon }}">
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext.patcher_page.title | markdownify }}</div>
+        <div class="intro-lead-in">{{ site.data.sitetext.patcher_page.text | markdownify }}</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.patcher_page.downloadWindows }}">{{ site.data.sitetext.patcher_page.buttonWindows }}</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.patcher_page.downloadLinux }}">{{ site.data.sitetext.patcher_page.buttonLinux }}</a>
+        <div class="small-link">
+          <a class="js-scroll-trigger" href="{{ site.data.sitetext.patcher_page.manualInstallationLink }}">{{ site.data.sitetext.patcher_page.manualInstallationText }}</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  {% include patcher/patcher_explanation.html %}
+  {% include patcher/patcher_manualinstallation.html %}
+  {{content}}

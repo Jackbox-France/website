@@ -1,0 +1,10 @@
+#Color Customization
+#highlight: "#54bfff"
+#white: "#FF0000"
+#black: "#000"
+
+#Image Customization
+header-image: "../img/header.png"
+patcher-image: "../img/patcher_banner.png"
+patcher-icon: "assets/img/patcher_logo.png"
+contact-image: "../img/contact.png"
