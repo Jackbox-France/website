@@ -1,10 +1,17 @@
-<header class="masthead masthead-patcher" id="{{ site.data.sitetext.patcher.section | default: patcher }}">
+<header class="masthead left-masthead controller-masthead" id="{{ site.data.sitetext.controller.section | default: controller }}">
     <div class="container">
-      <div class="intro-text subheader">
-        <img src="{{ site.data.style.patcher-icon }}">
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext.patcher.title | markdownify }}</div>
-        <div class="intro-lead-in">{{ site.data.sitetext.patcher.text | markdownify }}</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.patcher.buttonlink }}">{{ site.data.sitetext.patcher.button }}</a>
-      </div>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="intro-text subheader">
+                    <img src="{{ site.data.style.patcher-icon }}">
+                    <div class="intro-heading text-uppercase">{{ site.data.sitetext.controller.title | markdownify }}</div>
+                    <div class="intro-lead-in">{{ site.data.sitetext.controller.text | markdownify }}</div>
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.controller.buttonlink }}">{{ site.data.sitetext.controller.button }}</a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img class="jackblox-banner" src="{{ site.data.style.jackblock-image}}">
+            </div>
+        </div>
     </div>
   </header>

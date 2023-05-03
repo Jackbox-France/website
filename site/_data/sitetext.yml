@@ -13,7 +13,7 @@ patcher:
 
 controller:
     title: Jackbox.tv français
-    text: Connectez vous à Jackbox.tv en français
+    text: Connectez vous et jouez à Jackbox.tv en français
     button: Jouons maintenant
     buttonlink: "https://laboxdejack.fr/"
 

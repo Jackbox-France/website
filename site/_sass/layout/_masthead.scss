@@ -65,15 +65,20 @@
   }
 }
 
-#patcher-masthead {
+.patcher-masthead {
   background-color: $gray-900;
   background-image:unset;
 }
 
 @media(min-width:768px) {
-  #patcher-masthead {
+  .patcher-masthead {
     background-image:url("#{$patcher-image}");
   }
+}
+
+.controller-masthead {
+  background-color: #0e0f20;
+  background-image:unset;
 }
 
 @media(min-width:768px) {

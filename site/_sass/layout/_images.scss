@@ -1,0 +1,16 @@
+.jackblox-banner {
+    height:0px;
+    width:unset!important;
+    position:absolute;
+    bottom: 0px;
+}
+
+@media(min-width:768px) {
+
+    .jackblox-banner {
+        height:300px;
+        width:unset!important;
+        position:absolute;
+        bottom: 0px;
+    }
+} 
